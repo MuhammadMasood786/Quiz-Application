@@ -1,38 +1,64 @@
-.App {
+body {
+  background-color: #fff !important;
+}
+.cardStyle {
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 2px 4px 2px black;
+  border-radius: 10px;
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Rowdies&family=Squada+One&display=swap");
+.heading {
+  color: rgb(69, 156, 214);
+  font-family: "Rowdies", cursive;
+  text-shadow: 2px 4px 2px rgb(56, 56, 170);
+}
+.questionStyle {
+  font-family: "Rowdies", cursive;
+  font-weight: normal !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-outline-dark {
+  width: 100% !important;
+  margin-top: 20px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.radioStyle {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.labelStyle {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.labelStyle:hover {
+  color:maroon;
+  /* background-color:rgb(218, 218, 218); */
+  font-weight: bold;
+  width: 100%;
+  border-radius: 2px 3px 1px grey;
+  /* border-bottom: 1px solid gray; */
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.showResult {
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px black;
+  padding: 10px;
+  width: 250px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
+  margin-top: 250px;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.resultHeading {
+  font-family: "Rowdies", cursive;
+  color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resultHeading1 {
+  font-family: "Rowdies", cursive;
 }
