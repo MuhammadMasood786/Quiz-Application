@@ -20,3 +20,4 @@ export type QuestionPropType = {
   options: string[];
   callback: (e: React.FormEvent<EventTarget>,ans: string)=> void
 }
+
