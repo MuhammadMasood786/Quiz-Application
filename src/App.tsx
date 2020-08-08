@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { getQuizDetail } from './Services/quiz_service';
 import { QuizType } from './Type/quiz_type';
 import QuestionCard from './Component/QuestionCard';
+import { initNotification } from './firebaseServices';
 
 function App() {
 
@@ -58,9 +59,16 @@ function App() {
     )
   }
 
+
   return (
+
     <div>
-      <div className='row justify-content-center mt-5'>
+      <div className='row justify-content-center mt-2'>
+        <button  className="btn btn-outline-primary" onClick={initNotification} >
+          Allow Notificaitons ?
+         </button>
+      </div>
+      <div className='row justify-content-center mt-4'>
         <h1 className="heading">Quiz App</h1>
       </div>
       <div>
