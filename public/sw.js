@@ -1,5 +1,6 @@
 var CACHE_NAME = 'cacheFile';
 var urlsToCache = [
+    // '/manifest.json',
     'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple',
     '/',
     '/favicon.ico',
