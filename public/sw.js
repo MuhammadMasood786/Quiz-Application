@@ -1,13 +1,11 @@
-
-
 var CACHE_NAME = 'cacheFile';
 var urlsToCache = [
+    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple',
     '/',
     '/favicon.ico',
     '/static/js/bundle.js',
     '/static/js/0.chunk.js',
     '/static/js/main.chunk.js',
-    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple',
     '/index.html',
     '/src/App.test.tsx'
 ];
