@@ -38,11 +38,11 @@
 // });
 
 
-const cacheName = 'site-static-v2';
+const cacheName = 'CacheFiles';
 const assets = [
     '/',
-    '/favicon.ico',
-    '/logo192.png',
+    // '/favicon.ico',
+    // '/logo192.png',
     '/static/js/bundle.js',
     // '/favicon.ico',
     // '/manifest.json',
@@ -50,7 +50,10 @@ const assets = [
     '/static/js/main.chunk.js',
     '/index.html',
     // '/src/App.test.tsx',
-    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple ',
+    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple',
+    'https://opentdb.com/api.php?amount=5&category=23&difficulty=medium&type=multiple ',
+    'https://opentdb.com/api.php?amount=5&category=23&difficulty=hard&type=multiple ',
+    
 ];
 
 

@@ -6,7 +6,7 @@ const shuffleArray = (array: any[]) =>
 
 export const getQuizDetail = async (totalQuestion: number, level: string): Promise<QuizType[]> => {
 
-  const res = await fetch( `https://opentdb.com/api.php?amount=${totalQuestion}&category=23&difficulty=${level}&type=multiple`);
+  const res =  await fetch( `https://opentdb.com/api.php?amount=${totalQuestion}&category=23&difficulty=${level}&type=multiple`);
   const { results } = await res.json();
   const quiz: QuizType[] = results.map((questionObj: QuestionType) => {
     

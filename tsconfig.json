@@ -20,6 +20,6 @@
     "jsx": "react"
   },
   "include": [
-    "src", "public/sw.js"
+    "src", "src/sw.js"
   ]
 }
