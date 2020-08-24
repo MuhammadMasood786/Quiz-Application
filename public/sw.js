@@ -43,17 +43,15 @@ const assets = [
     '/',
     // '/favicon.ico',
     // '/logo192.png',
-    '/static/js/bundle.js',
+    // '/static/js/bundle.js',
     // '/favicon.ico',
     // '/manifest.json',
-    '/static/js/0.chunk.js',
-    '/static/js/main.chunk.js',
+    // '/static/js/0.chunk.js',
+    // '/static/js/main.chunk.js',
     '/index.html',
     // '/src/App.test.tsx',
-    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple',
-    'https://opentdb.com/api.php?amount=5&category=23&difficulty=medium&type=multiple ',
-    'https://opentdb.com/api.php?amount=5&category=23&difficulty=hard&type=multiple ',
-    
+    'https://opentdb.com/api.php?amount=5&category=23&difficulty=easy&type=multiple'
+
 ];
 
 
